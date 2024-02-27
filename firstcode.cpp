@@ -15,7 +15,7 @@ vec3 cross(const vec3 &v1, const vec3 &v2) {
             vec3 v;
             for (int i=0;i<3;i++) iss >> v[i];
             verts.push_back(v);
-
+//update
 void viewport(const int x, const int y, const int w, const int h) {
     Viewport = {{{w/2., 0, 0, x+w/2.}, {0, h/2., 0, y+h/2.}, {0,0,1,0}, {0,0,0,1}}};
 }
