@@ -22,3 +22,5 @@ void viewport(const int x, const int y, const int w, const int h) {
 
 void projection(const double f) {
     Projection = {{{1,0,0,0}, {0,-1,0,0}, {0,0,1,0}, {0,0,-1/f,0}}};
+
+//not full
